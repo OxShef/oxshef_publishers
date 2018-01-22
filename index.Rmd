@@ -4,7 +4,7 @@ output:
   html_document:
     toc_float: false
     includes:
-      before_body: [includes/include_header.html, includes/include_institutional-support.html]
+      before_body: [includes/include_header.html]
 ---
 
 **OxShef: Publishers** provides an overview of the support provided by academic publishers for embedding interactive data visualisations within research publications.
