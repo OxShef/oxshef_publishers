@@ -32,7 +32,7 @@ knitr::opts_chunk$set(
 
 <hr>
 
-<h2> **OxShef: Publishers** also maintains an overview of data repositories and their suitability for a reproducible dataviz workflow</h2>
+<h2> **OxShef: Publishers** also maintains an overview of [data repositories](data-repositories-list.html) and their suitability for a reproducible dataviz workflow</h2>
 
 <center>
 
