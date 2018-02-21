@@ -2,9 +2,46 @@
 title: "OxShef: Publishers"
 output:
   html_document:
-    toc_float: false
+    toc: false
+    toc_float:
+      collapsed: false
     includes:
-      before_body: [includes/include_header.html]
+      before_body: [includes/include_header.html, includes/include_header_navpage.html]
+editor_options: 
+  chunk_output_type: console
 ---
 
-**OxShef: Publishers** provides an overview of the support provided by academic publishers for embedding interactive data visualisations within research publications.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+<h2>**OxShef: Publishers** provides advice on choosing publishers that [support embedding visualisations alongside publications](publishers-list.html).</h2>
+
+<hr> 
+<center>
+
+<i class="far fa-file-pdf fa-5x"></i>&emsp;&emsp;<i class="far fa-chart-pie fa-5x"></i>&emsp;&emsp;<i class="far fa-file-code fa-5x"></i>&emsp;&emsp;<i class="far fa-chart-area fa-5x"></i>&emsp;&emsp;<i class="far fa-file-pdf fa-5x"></i>
+
+</center>
+
+<hr>
+
+<h2> **OxShef: Publishers** also maintains an overview of data repositories and their suitability for a reproducible dataviz workflow</h2>
+
+<center>
+
+<p>
+<img src="images/dash-logo.svg" alt="" width="22%" height="12%">&nbsp;&nbsp;
+<img src="images/jupyter-logo.png" alt="" width="12%" height="12%">&nbsp;&nbsp;
+<img src="images/shiny-logo.png" alt="" width="10%" height="10%">&nbsp;&nbsp;
+<img src="images/vega-lite-logo.png" alt="" width="22%" height="12%">
+
+</p>
+</center>
+
