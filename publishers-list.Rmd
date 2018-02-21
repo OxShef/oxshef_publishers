@@ -1,0 +1,121 @@
+---
+title: "Publishers"
+output:
+  html_document:
+    toc: false
+    toc_float:
+      collapsed: false
+    includes:
+      before_body: [includes/include_header.html, includes/include_header_navpage.html]
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+## Publishers
+
+Publishers are searching for new ways to differentiate themselves and offer services that academics are interested in, and data visualisation is currently picking up steam as an important feature for modern journals. Back in 2015, F1000 introduced the concept of a [living figure](https://f1000research.com/articles/3-176/v2#f4) which is widely regarded[^1] as being one of the first big publishers to introduce automatically updating figures into publications. In early 2018, Jeffrey Perkel published a great [overview of the current state of play of visualisations in publishing](doi.org/10.1038/d41586-018-01322-9).
+
+**OxShef: dataviz** has a history of running (and future plans for more) events bringing together publishers, news organisations and academics to discuss their shared interests in dataviz and how they can work more closely together. Our last event in December 2017 can be read about [here](https://idn.it.ox.ac.uk/event/missing-link-publishing-interactive-data-visualisation).
+
+In general, we've noted that there are three very different ways that researchers and publishers want to work together on dataviz:
+
+<div class='row'>
+
+<div class='col-sm-4'>
+
+<center><h5>Academic developed</h5></center>
+<center><i class='fas fa-file-code fa-2x'></i></center>
+Some publishers support embedding of visualisations developed exclusively by the academic. The clearest example of that is [F1000's integrations with plotly](https://blog.f1000.com/2017/07/19/so-long-static-we-now-support-interactive-ploty-figures-in-our-articles/). **OxShef: Publishers** is actively documenting publishers that support embedded visualisations in the table below.
+
+</div>
+
+
+<div class='col-sm-4'>
+
+<center><h5>Collaboratively developed</h5></center>
+<center><i class='fas fa-users fa-2x'></i></center>
+Publishers and academics sometimes collaborate on the development of interactive visualisations for specific publications. **OxShef: Publishers** is actively engaging with publishers to better document their support for these arrangements and will populate this page with our findings.
+
+</div>
+
+
+<div class='col-sm-4'>
+
+<center><h5>Subject Matter Expert</h5></center>
+<center><i class='fas fa-wrench fa-2x'></i></center>
+The rise of data journalism requires new collaborations where publishers contact researchers to act as subject matter experts to advise on features conceived of by the journalist. **OxShef: Publishers** are actively investigating how publishers seek out researchers and will document advice on how researchers can increase their visibility in this page.
+</div>
+
+
+</div>
+
+<!-- ### Publishers supporting dataviz embedding {#table-of-publishers} -->
+
+<!-- ```{r repositories-DT, echo = FALSE} -->
+<!-- library("tidyverse") -->
+<!-- library("DT") -->
+<!-- library("readxl") -->
+
+<!-- fa_scripting <- "<i class='fa fa-file-code fa-2x'></i>" -->
+<!-- fa_pointAndClick <- "<i class='fa fa-hand-pointer fa-2x'></i>" -->
+
+<!-- fa_icons <- tribble( -->
+<!--   ~tool.type, ~type, -->
+<!--   "Scripting", "<i class='fa fa-file-code fa-2x'></i>", -->
+<!--   "Point and Click", "<i class='fa fa-hand-pointer fa-2x'></i>" -->
+<!-- ) -->
+
+<!-- oxshef_repositories <- read_xlsx("oxshef-repositories.xlsx") -->
+
+<!-- oxshef_repositories %>% -->
+<!--   arrange(repository) %>% -->
+<!--   mutate(logo = paste0( -->
+<!--     "<a href='", url, "' target='_blank'>", -->
+<!--     "<img src='images/table-of-repositories-logos/", image.path, "' style='max-height:80px'></img>", -->
+<!--     "</a>" -->
+<!--   )) %>% -->
+<!--   # left_join(fa_icons) %>% -->
+<!--   # select(-url, -tool.type, -image.path, -tool) %>% -->
+<!--   # mutate(external.data.support = ifelse(external.data.support, -->
+<!--   #   "<i class='fas fa-circle'></i>", -->
+<!--   #   "<i class='far fa-circle'></i>" -->
+<!--   # )) %>% -->
+<!--   select(logo, everything(), -repository, -url, -image.path) %>% -->
+<!--   datatable( -->
+<!--     escape = FALSE, -->
+<!--     rownames = FALSE, -->
+<!--     colnames = c( -->
+<!--       "Repository", -->
+<!--       "Description", -->
+<!--       "DOI Versioning Info", -->
+<!--       "API info" -->
+<!--     ), -->
+<!--     options = list( -->
+<!--       scrollX = TRUE, -->
+<!--       autoWidth = TRUE, -->
+<!--       columnDefs = list( -->
+<!--         list(width = "100px", targets = c(0)), -->
+<!--         list(width = "400px", targets = c(1)), -->
+<!--         list(width = "250px", targets = c(2, 3)), -->
+<!--         list(className = "dt-center", targets = c(0)) -->
+<!--       ), -->
+<!--       dom = "t" -->
+<!--     ), -->
+<!--     width = "100%" -->
+<!--   ) -->
+<!-- ``` -->
+
+
+[^1]: As Jeffrey admits [here](http://blogs.nature.com/naturejobs/2018/02/07/techblog-an-interactive-figures-update/?WT.mc_id=EMX_NJOBS_0208_NATUREJOBSNEWSLETTER_A&WT.ec_id=EXTERNAL) there is a smaller publisher called [Authorea](https://authorea.com/) who have been doing interesting things with Jupyter and other fun tools much earlier than 2015. 
+
