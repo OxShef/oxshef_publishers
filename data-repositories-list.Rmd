@@ -51,7 +51,7 @@ General purpose repositories often have fairly large file size limits, can be us
 <center><i class='fas fa-briefcase fa-2x'></i></center>
 Specialist repositories are designed for specific types of deposit, for instance; GIS, genomic, proteinomic, metereological or archeological data. Datasets require highly detailed meta-data to be added before they can be published, as users of these repositories expect to be able to filter or access datasets based on these fields. 
 
-Scientific Data maintains an [excellent guide to specialist repositories](https://www.nature.com/sdata/policies/repositories) but you may wish to refer to [re3data.org](re3data.org) which is well regarded as the most exhaustive collection of (over 2,000) repositories. 
+Scientific Data maintains an [excellent guide to specialist repositories](https://www.nature.com/sdata/policies/repositories) but you may wish to refer to [re3data.org](https://re3data.org) which is well regarded as the most exhaustive collection of (over 2,000) repositories. 
 
 </div>
 

@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 
 ## Publishers
 
-Publishers are searching for new ways to differentiate themselves and offer services that academics are interested in, and data visualisation is currently picking up steam as an important feature for modern journals. Back in 2015, F1000 introduced the concept of a [living figure](https://f1000research.com/articles/3-176/v2#f4) which is widely regarded[^1] as being one of the first big publishers to introduce automatically updating figures into publications. In early 2018, Jeffrey Perkel published a great [overview of the current state of play of visualisations in publishing](doi.org/10.1038/d41586-018-01322-9).
+Publishers are searching for new ways to differentiate themselves and offer services that academics are interested in, and data visualisation is currently picking up steam as an important feature for modern journals. Back in 2015, F1000 introduced the concept of a [living figure](https://f1000research.com/articles/3-176/v2#f4) which is widely regarded[^1] as being one of the first big publishers to introduce automatically updating figures into publications. In early 2018, Jeffrey Perkel published a great [overview of the current state of play of visualisations in publishing](https://doi.org/10.1038/d41586-018-01322-9).
 
 **OxShef: dataviz** has a history of running (and future plans for more) events bringing together publishers, news organisations and academics to discuss their shared interests in dataviz and how they can work more closely together. Our last event in December 2017 can be read about [here](https://idn.it.ox.ac.uk/event/missing-link-publishing-interactive-data-visualisation).
 
