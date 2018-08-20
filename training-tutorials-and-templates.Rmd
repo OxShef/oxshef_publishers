@@ -11,7 +11,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-**OxShef: Publishers** provides resources to assist researchers in finding publishers who support or else collaborate in the embedding of data visualisations alongside publications, and what constitutes a [reproducible dataviz workflow](http://oxshef-publishers.netlify.com/reproducible-dataviz-workflow.html).
+**OxShef: Publishers** provides resources to assist researchers in finding publishers who support or else collaborate in the embedding of data visualisations alongside publications, and what constitutes a [reproducible dataviz workflow](https://publishers.oxshef.io/reproducible-dataviz-workflow.html).
 
 There are two extremely important technologies you should know about to work reproducibly:
 
